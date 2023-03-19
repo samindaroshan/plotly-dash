@@ -1,0 +1,119 @@
+body {
+  background-color: #1B2631;
+  margin: 5%;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.display_flex {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.title_text {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  color: white;
+  flex: 6;
+}
+
+.title_container {
+  background-color: #010914;
+  border-radius: 5px;
+}
+
+.fix_label {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.dcc_component {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+}
+
+.title_dropdown_column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex: 2;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.adjusts_drop_lists {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+/*style drop down list*/
+.Select-control, .Select-menu-outer, .Select-multi-value-wrapper, .select-up, .is-open .Select-control {
+  background-color: #000000;
+  color: white;
+}
+
+.Select-control {
+  border: 0.5px solid green;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+  color: white;
+}
+
+/* style the scroll bar*/
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #010914 !important;
+  display: block !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #566573;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #566573;
+}
+
+.create_container1 {
+  background-color: #010914;
+  margin-top: 15px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.create_container2 {
+  background-color: #010914;
+  margin-top: 15px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.create_container3 {
+  background-color: #010914;
+  margin-top: 15px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.text_columns {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
